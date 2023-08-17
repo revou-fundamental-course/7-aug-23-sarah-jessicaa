@@ -19,3 +19,13 @@ function hitung() {
 		document.getElementById("luas").innerHTML = "Masukkan nilai alas dan tinggi";
 	}
 }
+
+function resetForm() {
+	document.getElementById("sisi1").value = "";
+	document.getElementById("sisi2").value = "";
+	document.getElementById("sisi3").value = "";
+	document.getElementById("alas").value = "";
+	document.getElementById("tinggi").value = "";
+	document.getElementById("luas").innerHTML = "";
+	document.getElementById("keliling").innerHTML = "";
+}

@@ -19,6 +19,10 @@ h2 {
     color: #AEFEFF;
 }
 
+label {
+	color:#AEFEFF;
+}
+
 .image {
 	margin: 10px;
 }
