@@ -6,17 +6,17 @@ body {
 	max-width: 600px;
 	margin: 0 auto;
 	text-align: center;
-	background-color: #8FBC8F;
+	background-color: #072227;
 	padding: 20px;
 	border-radius: 10px;
 }
 
 h1 {
-	color: #006400;
+	color: #AEFEFF;
 }
 
 h2 {
-    color: #006400;
+    color: #AEFEFF;
 }
 
 .image {
@@ -42,20 +42,20 @@ input {
 
 button {
 	padding: 5px 10px;
-	background-color: #006400;
-	color: whitesmoke;
+	background-color: #AEFEFF;
+	color: #072227;
 	border: none;
 	border-radius: 5px;
 	cursor: pointer;
 }
 
 .hasil {
-	background-color: #006400;
+	background-color: #AEFEFF;
 	padding: 10px;
 	border-radius: 5px;
 }
 
 .hasil p {
-	color: whitesmoke;
+	color: #072227;
 	margin: 5px 0;
 }
