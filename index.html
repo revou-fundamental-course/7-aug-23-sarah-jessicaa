@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kalkulator Segitiga</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Kalkulator Segitiga</h1>
+		<div class="image">
+			<img src="https://th.bing.com/th/id/R.573d01b087a4246fd3e529be9eea0302?rik=nIy41N7jr0b4tQ&riu=http%3a%2f%2f3.bp.blogspot.com%2f-f6dNclyzns0%2fTz8_OGEUTfI%2fAAAAAAAABI4%2fZS2L2tauOkM%2fs1600%2frumus%2bluas%2bsegitiga%2bsama%2bsisi.jpeg&ehk=oJycx2rluMNBViMxZfkXHBBBV73XBZ%2f3xln30kmbgrA%3d&risl=&pid=ImgRaw&r=0">
+		<h2>
+      Rumus Keliling Segitiga :
+      <p>1/2* alas* tinggi</p>
+      <br>
+      Rumus Luas Segitiga :
+      <p>S1 + S2 + S3</p>
+    </h2>
+    </div>
+		<div class="form">
+			<label for="sisi1">Sisi 1:</label>
+			<input type="number" id="sisi1" placeholder="Masukkan nilai sisi 1">
+			<label for="sisi2">Sisi 2:</label>
+			<input type="number" id="sisi2" placeholder="Masukkan nilai sisi 2">
+			<label for="sisi3">Sisi 3:</label>
+			<input type="number" id="sisi3" placeholder="Masukkan nilai sisi 3">
+			<label for="alas">Alas:</label>
+			<input type="number" id="alas" placeholder="Masukkan nilai alas">
+			<label for="tinggi">Tinggi:</label>
+			<input type="number" id="tinggi" placeholder="Masukkan nilai tinggi">
+			<button onclick="hitung()">Hitung</button>
+		</div>
+		<div class="hasil">
+			<p>Luas: <span id="luas"></span></p>
+			<p>Keliling: <span id="keliling"></span></p>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
